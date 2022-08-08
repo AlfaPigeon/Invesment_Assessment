@@ -1,0 +1,26 @@
+2022-08-04 11:49:00 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/t-shaped> (referer: http://crunchbase.com/companies)
+2022-08-04 11:49:00 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/t-shaped>
+{'Company_Name': ' Intao ', 'Headquarters Location': ' Berlin  Berlin  Germany', 'Number of Employees': '1-10', 'IPO Status': 'Private', 'Website': ' intao.io/ ', 'CB Rank (Company)': '624,203', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'E-Learning|Education|Training', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' European Union (EU)', 'Date the Organization was founded': '2018', 'Founders of the organization': ' Adam Golya  Alain Van Gils  Kathrin Kroenig', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Alternate or previous names for the organization': 'T-Shaped', 'The legal name of the organization': 'T-Shaped Learning Solutions GmbH', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'hello@t-shaped.me', "Organization's general phone number": '+49 (0) 30 56 79 49 56', 'Total number of employee profiles an organization has on Crunchbase': '3', 'Total number of organizations similar to the given organization': '4'}
+2022-08-04 11:49:00 [scrapy] INFO: Closing spider (finished)
+2022-08-04 11:49:00 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1471,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 41642,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.901712,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 4, 8, 49, 0, 924249),
+ 'httpcompression/response_bytes': 276890,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 26,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 4, 8, 49, 0, 22537)}
+2022-08-04 11:49:00 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,26 @@
+2022-07-27 11:36:34 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/dupont> (referer: http://crunchbase.com/companies)
+2022-07-27 11:36:34 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/dupont>
+{'Company_Name': ' DuPont ', 'Headquarters Location': ' Wilmington  Delaware  United States', 'Number of Employees': '10001+', 'IPO Status': 'Public', 'Website': ' www.dupont.com ', 'CB Rank (Company)': '75,477', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Advanced Materials|Agriculture|Innovation Management', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' Greater Philadelphia Area  East Coast  Southern US', 'Date the Organization was founded': 'Jul 19, 1802', 'Founders of the organization': ' Éleuthère Irénée du Pont', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Alternate or previous names for the organization': 'E. I. du Pont de Nemours and Company', 'The legal name of the organization': 'DuPont de Nemours, Inc.', 'Stock ticker symbol e.g. AAPL, FB, TWTR': ' NYSE:DD ', 'Whether an Organization is for profit or non-profit': 'For Profit', 'Total number of Exits': '1', 'Stock ticker symbol (e.g. AAPL, FB, TWTR)': 'NYSE:DD', 'Total number of Acquisitions': '14', 'Total number of Investments made': '5', 'Total number of Crunchbase contacts associated with this organization': '5,383', 'Total number of employee profiles an organization has on Crunchbase': '58'}
+2022-07-27 11:36:34 [scrapy] INFO: Closing spider (finished)
+2022-07-27 11:36:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1469,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 66323,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.940375,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 27, 8, 36, 34, 962381),
+ 'httpcompression/response_bytes': 432337,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 30,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 27, 8, 36, 34, 22006)}
+2022-07-27 11:36:34 [scrapy] INFO: Spider closed (finished)

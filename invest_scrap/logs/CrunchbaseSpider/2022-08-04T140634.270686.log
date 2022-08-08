@@ -1,0 +1,26 @@
+2022-08-04 14:06:34 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/mount-0144> (referer: http://crunchbase.com/companies)
+2022-08-04 14:06:35 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/mount-0144>
+{'Company_Name': ' None ', 'Last Funding Type': 'Seed', 'IPO Status': 'Private', 'CB Rank (Company)': '708,579', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Seed', 'Total number of investment firms and individual investors': '3'}
+2022-08-04 14:06:35 [scrapy] INFO: Closing spider (finished)
+2022-08-04 14:06:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1473,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 38330,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.822184,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 4, 11, 6, 35, 98871),
+ 'httpcompression/response_bytes': 242132,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 15,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 4, 11, 6, 34, 276687)}
+2022-08-04 14:06:35 [scrapy] INFO: Spider closed (finished)

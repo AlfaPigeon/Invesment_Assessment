@@ -1,0 +1,13 @@
+
+Symbol, Description, Cruncbase_url
+THYAO, Türk hava yolları, turkish-airlines
+TCELL, Turkcell iletişim hizmetleri aş, turkcell
+ARCLK, Arçelik, arçelik-a-Ş
+YATAS.IS, Yataş yatak şeyleri, yatas-yatak-ve-yorgan
+TTKOM, Türk telekom, trk-telekom
+
+scrapy crawl CrunchbaseSpider -a firm_name=turkish-airlines -o out.csv
+scrapy crawl CrunchbaseSpider -a firm_name=turkcell -o out.csv
+scrapy crawl CrunchbaseSpider -a firm_name=arçelik-a-Ş -o out.csv
+scrapy crawl CrunchbaseSpider -a firm_name=yatas-yatak-ve-yorgan -o out.csv
+scrapy crawl CrunchbaseSpider -a firm_name=trk-telekom -o out.csv

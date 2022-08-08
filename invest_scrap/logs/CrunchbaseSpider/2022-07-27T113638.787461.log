@@ -1,0 +1,26 @@
+2022-07-27 11:36:39 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/tcell-clinical-services> (referer: http://crunchbase.com/companies)
+2022-07-27 11:36:39 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/tcell-clinical-services>
+{'Company_Name': ' TCell Clinical Services ', 'Headquarters Location': ' Parsippany  New Jersey  United States', 'Number of Employees': '1-10', 'IPO Status': 'Private', 'Website': ' tcellservices.com ', 'CB Rank (Company)': '1,323,740', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Analytics|Artificial Intelligence|Health Care|Service Industry', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' Greater New York Area  East Coast  Northeastern US', 'Date the Organization was founded': '2014', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Whether an Organization is for profit or non-profit': 'For Profit', 'Total number of Crunchbase contacts associated with this organization': '1', 'Total number of organizations similar to the given organization': '4'}
+2022-07-27 11:36:39 [scrapy] INFO: Closing spider (finished)
+2022-07-27 11:36:39 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1486,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 43313,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.847498,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 27, 8, 36, 39, 640961),
+ 'httpcompression/response_bytes': 282249,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 21,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 27, 8, 36, 38, 793463)}
+2022-07-27 11:36:39 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,26 @@
+2022-07-27 11:36:40 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/centre> (referer: http://crunchbase.com/companies)
+2022-07-27 11:36:40 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/centre>
+{'Company_Name': ' CENTRE ', 'Headquarters Location': ' Boston  Massachusetts  United States', 'Number of Employees': '1-10', 'Website': ' www.centre.io/ ', 'CB Rank (Investor)': '1,886', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Blockchain|FinTech|Internet|Software', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' Greater Boston Area  East Coast  New England', 'Date the Organization was founded': '2017', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Venture - Series Unknown', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'interest@centre.io', 'Total number of Investments made': '1', 'Total amount raised across all funding rounds': '$40M', 'Total number of employee profiles an organization has on Crunchbase': '3', 'Total number of Crunchbase contacts associated with this organization': '3', 'Total number of investment firms and individual investors': '1', 'Total number of organizations similar to the given organization': '161'}
+2022-07-27 11:36:40 [scrapy] INFO: Closing spider (finished)
+2022-07-27 11:36:40 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1469,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 84926,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.888119,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 27, 8, 36, 40, 969358),
+ 'httpcompression/response_bytes': 815070,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 26,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 27, 8, 36, 40, 81239)}
+2022-07-27 11:36:40 [scrapy] INFO: Spider closed (finished)

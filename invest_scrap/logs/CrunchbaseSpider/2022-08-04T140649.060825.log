@@ -1,0 +1,26 @@
+2022-08-04 14:06:49 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/concurrent-inc> (referer: http://crunchbase.com/companies)
+2022-08-04 14:06:49 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/concurrent-inc>
+{'Company_Name': ' Driven ', 'Name of the organization that made the acquisition': ' Xplenty ', 'Headquarters Location': ' San Francisco  California  United States', 'Number of Employees': '11-50', 'Last Funding Type': 'Series B', 'IPO Status': 'Private', 'Website': ' www.driven.io ', 'CB Rank (Company)': '51,170', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Big Data|Data Integration|Developer APIs|Developer Tools|Enterprise Software|Software', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' San Francisco Bay Area  West Coast  Western US', 'Date the Organization was founded': '2008', 'Founders of the organization': ' Chris Wensel', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Series B', 'Alternate or previous names for the organization': 'Concurrent', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'info@driven.io', "Organization's general phone number": '(415) 813-1010', 'Auto-generated name of transaction (e.g. WhatsApp acquired by Facebook)': ' Driven acquired by Xplenty ', 'Date the Acquisition was announced': 'Dec 25, 2016', 'Total amount raised across all funding rounds': '$14.9M', 'Total number of Crunchbase contacts associated with this organization': '1', 'Total number of employee profiles an organization has on Crunchbase': '2', 'Total number of investment firms and individual investors': '4', 'Total number of organizations similar to the given organization': '6'}
+2022-08-04 14:06:49 [scrapy] INFO: Closing spider (finished)
+2022-08-04 14:06:49 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1477,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 54672,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.888199,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 4, 11, 6, 49, 956025),
+ 'httpcompression/response_bytes': 367288,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 34,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 4, 11, 6, 49, 67826)}
+2022-08-04 14:06:49 [scrapy] INFO: Spider closed (finished)

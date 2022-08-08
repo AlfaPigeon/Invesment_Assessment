@@ -1,0 +1,18 @@
+2022-07-21 13:41:31 [scrapy] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\scrapy\core\engine.py", line 150, in _next_request
+    request = next(self.slot.start_requests)
+  File "D:\Windows\Projects\InvestmentScrapper\invest_scrap\invest_scrap\middlewares.py", line 52, in process_start_requests
+    for r in start_requests:
+  File "D:\Windows\Projects\InvestmentScrapper\invest_scrap\invest_scrap\spiders\CrunchbaseSpider.py", line 43, in start_requests
+    f'https://www.crunchbase.com/organization/{self.firm_name}'
+AttributeError: 'CrunchbaseSpider' object has no attribute 'firm_name'
+2022-07-21 13:41:31 [scrapy] INFO: Closing spider (finished)
+2022-07-21 13:41:31 [scrapy] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 0.001,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 21, 10, 41, 31, 583556),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'start_time': datetime.datetime(2022, 7, 21, 10, 41, 31, 582556)}
+2022-07-21 13:41:31 [scrapy] INFO: Spider closed (finished)

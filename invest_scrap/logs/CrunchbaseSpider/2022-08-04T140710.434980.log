@@ -1,0 +1,26 @@
+2022-08-04 14:07:11 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/yatas-yatak-ve-yorgan> (referer: http://crunchbase.com/companies)
+2022-08-04 14:07:11 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/yatas-yatak-ve-yorgan>
+{'Company_Name': ' Yatas Yatak Ve Yorgan ', 'Headquarters Location': ' Kartal  Istanbul  Turkey', 'Number of Employees': '1001-5000', 'IPO Status': 'Public', 'Website': ' www.yatas.com.tr/ ', 'CB Rank (Company)': '1,098,111', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Manufacturing|Marketing', 'Date the Organization was founded': 'Feb 18, 1976', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Stock ticker symbol e.g. AAPL, FB, TWTR': ' IST:YATAS ', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'musterihizmetleri@yatas.com.tr', "Organization's general phone number": '444 0 987', 'Stock ticker symbol (e.g. AAPL, FB, TWTR)': 'IST:YATAS', 'Total number of organizations similar to the given organization': '3'}
+2022-08-04 14:07:11 [scrapy] INFO: Closing spider (finished)
+2022-08-04 14:07:11 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1484,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 41258,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.870194,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 8, 4, 11, 7, 11, 311175),
+ 'httpcompression/response_bytes': 262660,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 23,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 8, 4, 11, 7, 10, 440981)}
+2022-08-04 14:07:11 [scrapy] INFO: Spider closed (finished)

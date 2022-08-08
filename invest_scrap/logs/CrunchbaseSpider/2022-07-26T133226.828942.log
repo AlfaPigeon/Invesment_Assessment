@@ -1,0 +1,26 @@
+2022-07-26 13:32:27 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/trk-telekom/company_financials> (referer: http://crunchbase.com/companies)
+2022-07-26 13:32:27 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/trk-telekom/company_financials>
+{'Company_Name': ' Türk Telekom ', 'Total number of Investments made': '3'}
+2022-07-26 13:32:27 [scrapy] INFO: Closing spider (finished)
+2022-07-26 13:32:27 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1493,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 51357,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.015999,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 10, 32, 27, 850943),
+ 'httpcompression/response_bytes': 329611,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 26, 10, 32, 26, 834944)}
+2022-07-26 13:32:27 [scrapy] INFO: Spider closed (finished)

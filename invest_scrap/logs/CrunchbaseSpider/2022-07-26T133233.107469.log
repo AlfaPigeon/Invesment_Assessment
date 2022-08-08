@@ -1,0 +1,26 @@
+2022-07-26 13:32:33 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/ttnet> (referer: http://crunchbase.com/companies)
+2022-07-26 13:32:34 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/ttnet>
+{'Company_Name': ' TTNET ', 'Name of the organization that made the acquisition': ' Made-in-China.com ', 'Headquarters Location': ' Istanbul  Istanbul  Turkey', 'Number of Employees': '501-1000', 'IPO Status': 'Private', 'Website': ' www.ttnet.com.tr ', 'CB Rank (Company)': '212,467', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'ISP', 'Date the Organization was founded': 'Apr 26, 2006', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Whether an Organization is for profit or non-profit': 'For Profit', 'Auto-generated name of transaction (e.g. WhatsApp acquired by Facebook)': ' TTNET acquired by Made-in-China.com ', 'Date the Acquisition was announced': 'Sep 2, 2010', 'Total number of Crunchbase contacts associated with this organization': '18', 'Total number of organizations similar to the given organization': '3'}
+2022-07-26 13:32:34 [scrapy] INFO: Closing spider (finished)
+2022-07-26 13:32:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1468,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 47706,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.928267,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 10, 32, 34, 41737),
+ 'httpcompression/response_bytes': 295399,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 24,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 26, 10, 32, 33, 113470)}
+2022-07-26 13:32:34 [scrapy] INFO: Spider closed (finished)

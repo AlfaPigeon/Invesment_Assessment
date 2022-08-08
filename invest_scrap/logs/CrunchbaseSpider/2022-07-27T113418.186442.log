@@ -1,0 +1,26 @@
+2022-07-27 11:34:19 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/login-people> (referer: http://crunchbase.com/companies)
+2022-07-27 11:34:19 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/login-people>
+{'Company_Name': ' Africanize Cuisines ', 'Headquarters Location': ' Cape Town  NA - South Africa  South Africa', 'Number of Employees': '1-10', 'IPO Status': 'Delisted', 'Website': ' order.africanize.co/ ', 'CB Rank (Company)': '103,573', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Food Delivery|Information Technology', 'Date the Organization was founded': 'Dec 1, 2019', 'Founders of the organization': ' Gcina Ntsonga', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Stock ticker symbol e.g. AAPL, FB, TWTR': ' EPA:ALLP ', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'info@africanize.co', "Organization's general phone number": '+27 0682760792', 'Total number of employee profiles an organization has on Crunchbase': '2', 'Total number of organizations similar to the given organization': '4'}
+2022-07-27 11:34:19 [scrapy] INFO: Closing spider (finished)
+2022-07-27 11:34:19 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1475,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 44903,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.051205,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 27, 8, 34, 19, 243649),
+ 'httpcompression/response_bytes': 284792,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 24,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 27, 8, 34, 18, 192444)}
+2022-07-27 11:34:19 [scrapy] INFO: Spider closed (finished)

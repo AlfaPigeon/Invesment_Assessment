@@ -1,0 +1,26 @@
+2022-07-26 18:44:32 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/ajaib> (referer: http://crunchbase.com/companies)
+2022-07-26 18:44:32 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/ajaib>
+{'Company_Name': ' Ajaib ', 'Headquarters Location': ' Jakarta  Jakarta Raya  Indonesia', 'Number of Employees': '101-250', 'Website': ' www.ajaib.co.id ', 'CB Rank (Investor)': '3,366', 'Actively Hiring': ' Actively Hiring - View All Jobs ', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Finance|Financial Services|FinTech|Trading Platform', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' Asia-Pacific (APAC)  Association of Southeast Asian Nations (ASEAN)  Southeast Asia', 'Date the Organization was founded': '2019', 'Founders of the organization': ' Anderson Sumarli  Yada Piyajomkwan', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Series B', 'Tags are labels assigned to organizations, which identify their belonging to a group with that shared label': ' Unicorn\n', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'info@ajaib.co.id', "Organization's general phone number": '+62 21 39502270', 'Total number of Acquisitions': '1', 'Total amount raised across all funding rounds': '$245.1M', 'Total number of employee profiles an organization has on Crunchbase': '3', 'Total number of Crunchbase contacts associated with this organization': '3', 'Total number of investment firms and individual investors': '13', 'Total number of organizations similar to the given organization': '6'}
+2022-07-26 18:44:32 [scrapy] INFO: Closing spider (finished)
+2022-07-26 18:44:32 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1468,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 54323,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 0.883785,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 15, 44, 32, 771609),
+ 'httpcompression/response_bytes': 349651,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 30,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 26, 15, 44, 31, 887824)}
+2022-07-26 18:44:32 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,31 @@
+2022-07-26 13:21:22 [scrapy] ERROR: Error downloading <GET %7B'links':%20['https://www.crunchbase.com/organization/ar%C3%A7elik-a-%C5%9E/company_financials',%20'https://www.crunchbase.com/organization/arcelik',%20'https://www.crunchbase.com/organization/crunchbase',%20'https://www.crunchbase.com/organization/getir',%20'https://www.crunchbase.com/organization/re-cap',%20'https://www.crunchbase.com/organization/google']%7D>
+Traceback (most recent call last):
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\twisted\internet\defer.py", line 1656, in _inlineCallbacks
+    result = current_context.run(
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\twisted\python\failure.py", line 514, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\scrapy\core\downloader\middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\scrapy\utils\defer.py", line 67, in mustbe_deferred
+    result = f(*args, **kw)
+  File "d:\windows\projects\investmentscrapper\invest\lib\site-packages\scrapy\core\downloader\handlers\__init__.py", line 74, in download_request
+    raise NotSupported(f"Unsupported URL scheme '{scheme}': {self._notconfigured[scheme]}")
+scrapy.exceptions.NotSupported: Unsupported URL scheme '': no handler available for that scheme
+2022-07-26 13:21:23 [scrapy] INFO: Closing spider (finished)
+2022-07-26 13:21:23 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/scrapy.exceptions.NotSupported': 1,
+ 'downloader/request_bytes': 1796,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'elapsed_time_seconds': 0.510168,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 10, 21, 23, 26864),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 8,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 26, 10, 21, 22, 516696)}
+2022-07-26 13:21:23 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,28 @@
+2022-07-26 13:27:28 [scrapy] DEBUG: Redirecting (302) to <GET https://www.google.com/search?q=inurl%3A+crunchbase.com%2Forganization+YATAS.IS&gws_rd=ssl> from <GET http://www.google.com/search?q=inurl%3A+crunchbase.com%2Forganization+YATAS.IS>
+2022-07-26 13:27:29 [scrapy] DEBUG: Crawled (200) <GET https://www.google.com/search?q=inurl%3A+crunchbase.com%2Forganization+YATAS.IS&gws_rd=ssl> (referer: None)
+2022-07-26 13:27:29 [scrapy] DEBUG: Scraped from <200 https://www.google.com/search?q=inurl%3A+crunchbase.com%2Forganization+YATAS.IS&gws_rd=ssl>
+{'links': ['https://www.crunchbase.com/organization/yatas-yatak-ve-yorgan']}
+2022-07-26 13:27:29 [scrapy] INFO: Closing spider (finished)
+2022-07-26 13:27:29 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 705,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 70900,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/302': 1,
+ 'elapsed_time_seconds': 1.426535,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 10, 27, 29, 566390),
+ 'httpcompression/response_bytes': 226769,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 3,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2022, 7, 26, 10, 27, 28, 139855)}
+2022-07-26 13:27:29 [scrapy] INFO: Spider closed (finished)

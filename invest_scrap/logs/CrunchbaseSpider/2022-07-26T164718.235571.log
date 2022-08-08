@@ -1,0 +1,26 @@
+2022-07-26 16:47:19 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/truly-wireless> (referer: http://crunchbase.com/companies)
+2022-07-26 16:47:19 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/truly-wireless>
+{'Company_Name': ' Truly ', 'Headquarters Location': ' San Francisco  California  United States', 'Number of Employees': '11-50', 'Last Funding Type': 'Series A', 'IPO Status': 'Private', 'Website': ' truly.co ', 'CB Rank (Company)': '7,353', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Communications Infrastructure|Enterprise Software|SaaS|Software|Virtualization', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' San Francisco Bay Area  West Coast  Western US', 'Date the Organization was founded': '2013', 'Founders of the organization': ' Erol Toker', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Series A', 'Alternate or previous names for the organization': 'Highbeam', 'The legal name of the organization': 'Truly Technologies Inc', 'Whether an Organization is for profit or non-profit': 'For Profit', 'General contact email for the organization': 'team@truly.co', 'Total amount raised across all funding rounds': '$9.4M', 'Total number of Crunchbase contacts associated with this organization': '11', 'Total number of employee profiles an organization has on Crunchbase': '1', 'Total number of investment firms and individual investors': '13', 'Total number of organizations similar to the given organization': '9'}
+2022-07-26 16:47:19 [scrapy] INFO: Closing spider (finished)
+2022-07-26 16:47:19 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1477,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 55686,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.265539,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 26, 13, 47, 19, 509616),
+ 'httpcompression/response_bytes': 378886,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 30,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 26, 13, 47, 18, 244077)}
+2022-07-26 16:47:19 [scrapy] INFO: Spider closed (finished)

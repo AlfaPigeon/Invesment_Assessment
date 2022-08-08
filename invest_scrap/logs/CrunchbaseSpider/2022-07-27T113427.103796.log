@@ -1,0 +1,26 @@
+2022-07-27 11:34:28 [scrapy] DEBUG: Crawled (200) <GET https://www.crunchbase.com/organization/google> (referer: http://crunchbase.com/companies)
+2022-07-27 11:34:28 [scrapy] DEBUG: Scraped from <200 https://www.crunchbase.com/organization/google>
+{'Company_Name': ' Google ', 'Headquarters Location': ' Mountain View  California  United States', 'Number of Employees': '10001+', 'Last Funding Type': 'Initial Coin Offering', 'IPO Status': 'Public', 'Website': ' www.google.com/ ', 'CB Rank (Company)': '1', 'Descriptive keyword for an Organization (e.g. SaaS, Android, Cloud Computing, Medical Device)': 'Collaboration|Enterprise Software|Information Technology|Search Engine', 'Where the organization is headquartered (e.g. San Francisco Bay Area, Silicon Valley)': ' San Francisco Bay Area  Silicon Valley  West Coast', 'This is the parent Organization of the sub-organization': '', 'Date the Organization was founded': '1998', 'Founders of the organization': ' Alain Chuard  Andrew Ng  Bob Summers  Christopher Pedregal  Elliott Breece  Kevin Willer  Klee Irwin  Kobi Regev  Larry Page  Max Coppin  Nick Taylor  Ofer Ronen  Paul Smith  Peter Asbill  Sami Shalabi  Scott Huffman  Sergey Brin', 'Operating Status of Organization e.g. Active, Closed': 'Active', 'Last funding round type (e.g. Seed, Series A, Private Equity)': 'Initial Coin Offering', 'The legal name of the organization': 'Google LLC', 'Stock ticker symbol e.g. AAPL, FB, TWTR': ' NASDAQ:GOOG ', 'Whether an Organization is for profit or non-profit': 'For Profit', 'Total number of Exits': '41', 'General contact email for the organization': 'google@google.com', 'Stock ticker symbol (e.g. AAPL, FB, TWTR)': 'NASDAQ:GOOG', 'Total number of Acquisitions': '253', 'Total number of Investments made': '181', 'Total amount raised across all funding rounds': '$36.1M', 'Total number of Crunchbase contacts associated with this organization': '9,995'}
+2022-07-27 11:34:28 [scrapy] INFO: Closing spider (finished)
+2022-07-27 11:34:28 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1469,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 78891,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 1.094795,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 7, 27, 8, 34, 28, 204591),
+ 'httpcompression/response_bytes': 492366,
+ 'httpcompression/response_count': 1,
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 2,
+ 'log_count/INFO': 33,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 7, 27, 8, 34, 27, 109796)}
+2022-07-27 11:34:28 [scrapy] INFO: Spider closed (finished)
