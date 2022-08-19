@@ -2,6 +2,7 @@ import json
 from unittest import result
 from flask import Flask
 from flask import request
+from flask_cors import CORS
 import  psycopg2 
 import threading
 import sys
@@ -14,7 +15,7 @@ import datetime
 
 finnhub_client = finnhub.Client(api_key="cb6407qad3i70tu5u2tg")
 app = Flask(__name__)
-
+CORS(app)
 #scrapy server
 def scrapy_crunchbase_server_endpoint(firm_url):
     return f'http://localhost:3000/crawl.json?start_requests=true&spider_name=CrunchbaseSpider&crawl_args=%7B%22firm_url%22%3A%22{firm_url}%22%7D'
